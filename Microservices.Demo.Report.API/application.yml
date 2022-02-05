@@ -1,16 +1,4 @@
-{
-	"name": "Microservice.Demo.Report.API",
-	"profiles": ["default"],
-	"label": null,
-	"version": "1e5mk55j5555dd61fb0a9c95c93b3999da00099d",
-	"state": null,
-	"propertySources": [
-	{
-		"name": "https://github.com/AbelVentura/Microservices-Config-RepositoryA/blob/Microservice.Demo.Report.API/application.yml",
-		"source": {
-			"ConnectionStrings.PolicyConnection": "Data Source=microservices.demo.policy.db;Initial Catalog=Microservices.Demo.Policy;Persist Security Info=True;User ID=sa;Password=Password1234",
-			"ServicesUrl.ProductsApiUrl": "http://Microservices.Demo.Product.API/api/products"
-		}
-	}
-	]
-}
+ConnectionStrings:
+  PolicyConnection: Data Source=microservices.demo.policy.db;Initial Catalog=Microservices.Demo.Policy;Persist Security Info=True;User ID=sa;Password=Sistemas123
+ServicesUrl:
+  ProductsApiUrl: http://Microservices.Demo.Product.API/api/products
